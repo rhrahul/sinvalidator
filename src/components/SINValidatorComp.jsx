@@ -26,11 +26,11 @@ function SINValidatorComp(props) {
     }
   }, [sin]);
 
-  const inputClass = `w-full p-5 text-lg text-center rounded-lg border-2 ${
+  const inputClass = `relative w-full p-5 text-lg text-center rounded-lg border-2 ${
     error ? "!border-red-500" : valid ? "!border-green-500" : "border-slate-300"
   } focus:border-blue-500`;
 
-  const msgClass = `text-md font-bold w-full p-3 text-center rounded-b-lg -z-1 -mt-2`;
+  const msgClass = `text-md font-bold w-full p-3 pt-4 text-center rounded-b-lg -z-1 -mt-2`;
 
   return (
     <div className="flex flex-col items-center justify-center m-20">
