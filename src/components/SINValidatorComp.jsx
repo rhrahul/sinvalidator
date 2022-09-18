@@ -33,7 +33,7 @@ function SINValidatorComp(props) {
   const msgClass = `text-md font-bold w-full p-3 pt-4 text-center rounded-b-lg -z-1 -mt-2`;
 
   return (
-    <div className="flex flex-col items-center justify-center m-20">
+    <div className="flex flex-col items-center justify-center my-20">
       <input
         className={inputClass}
         type="text"
