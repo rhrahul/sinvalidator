@@ -26,7 +26,7 @@ function SINValidatorComp(props) {
     }
   }, [sin]);
 
-  const inputClass = `relative w-full p-5 text-lg text-center rounded-lg border-2 ${
+  const inputClass = `relative w-full p-5 text-lg text-center outline-none rounded-lg border-2 ${
     error ? "!border-red-500" : valid ? "!border-green-500" : "border-slate-300"
   } focus:border-blue-500`;
 
