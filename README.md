@@ -15,10 +15,10 @@ then, add all of the digits together (note that 16 is treated as +1+6. NOT +16)
 
 0 + 8 + 6 + 8 + 5 + 8 + 2 + 1+6 + 6 = 50<br/>
 
-If divisible by 10, it's valid. **Return** **true**
+If divisible by 10, it's valid. **Return true**<br/>
 Else it's invalid. **Return false**
 
-
+<br/><br/><br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
